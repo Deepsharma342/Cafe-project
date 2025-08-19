@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/Restaurant/themes/baresto/03_luxury-index.html",
+      "permanent": true
+    }
+  ]
+}
