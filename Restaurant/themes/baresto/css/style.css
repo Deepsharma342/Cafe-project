@@ -1,5 +1,5 @@
 /* ================================================== */
-/* created by designesia
+/* created by Deepanshu Sharma 
 
 * body
 * header
@@ -52,7 +52,27 @@
 @import url("../fonts/et-line-font/style.css");
 
 /* init */
-* {
+n{
+	top:-70px;
+	}
+	
+	header.header-bg{
+	background:rgba(34,34,34,0.5);
+	}
+	
+	header.transparent{
+	background:rgba(0,0,0,0.0);
+	
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0.65+0,0+100;Neutral+Density */
+background: -moz-linear-gradient(top, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(0,0,0,0.5) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(0,0,0,0.5) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+
+	border:none;
+
+	}
+	* {
     --body-font: "Plus Jakarta Sans";
     --title-font: "Plus Jakarta Sans", Helvetica, Arial, sans-serif;
     --deco-font-1: "Sacramento";
@@ -114,27 +134,7 @@ body.de_light{
 	top:0;
 	}
 	
-	header.scroll-down{
-	top:-70px;
-	}
-	
-	header.header-bg{
-	background:rgba(34,34,34,0.5);
-	}
-	
-	header.transparent{
-	background:rgba(0,0,0,0.0);
-	
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0.65+0,0+100;Neutral+Density */
-background: -moz-linear-gradient(top, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top, rgba(0,0,0,0.5) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom, rgba(0,0,0,0.5) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
-
-	border:none;
-
-	}
-	
+	header.scroll-dow
 	header.autoshow{
 	top:-80px;
 	}
