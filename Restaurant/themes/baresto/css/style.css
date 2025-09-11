@@ -1313,7 +1313,7 @@ i.input-icon{
 	/* breadcrumb */
 	/* ------------------------------ */
 	.crumb {
-	font-size: 12px;
+	font-size: 0px;
 	padding:0;
 	margin:0;
 	}
@@ -1340,13 +1340,11 @@ i.input-icon{
 		color:rgba(255, 255, 255, .5);
 	}
 
-	.breadcrumb-item.active {
-		color:#ffffff;
-	}
-
+	/*
 	.breadcrumb-item+.breadcrumb-item::before{
 		color: var(--secondary-color);
 	}
+		*/
 	
 	.subh-center .crumb{
 	float:none;
