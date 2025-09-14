@@ -1526,7 +1526,7 @@ i.input-icon{
 	a.btn-line-white, .de_light a.btn-line-white{
 	border:solid 2px var(--secondary-color);
 	color:#fff;
-	}
+		}
 	
 	a.btn-line-white:hover{
 	background:#fff;
@@ -5821,3 +5821,7 @@ float:none;
 	}
 	.team img.team-pic{max-width:300px;}
 	}
+/* Override bootstrap breadcrumb divider */
+.breadcrumb-item + .breadcrumb-item::before {
+  content: var(--bs-breadcrumb-divider, "/") !important;
+}
